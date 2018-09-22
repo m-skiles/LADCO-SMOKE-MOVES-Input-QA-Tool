@@ -32,8 +32,7 @@ LADCO has identified MOVES input data improvement as having great potential in i
 understand the MOVES-SMOKE input database and the impact of anomalies and default values on emission estimates, I spent 9 months 
 working remotely to build the LADCO SMOKE-MOVES Import QA Tool.  The project was built around smaller reports contracted 
 previously with Environ, ERG, and others.  The tool uses a series of R scripts with embedded SQL queries to compile the entire 
-SMOKE-MOVES vehicle fleet input database in R dataframes.  The tool then produces ~70,000 QA graphics/reports portraying trends
-in input data at the county, state, regional, and national level.  The requested QA reports, and additional relevant 
+SMOKE-MOVES vehicle fleet input database in R dataframes.  The tool then uses ggplot2 to produce ~70,000 QA graphics/reports portraying input data trends at the county, state, regional, and national level.  The requested QA reports, and additional relevant 
 transportation trends that I identified, are stored as graphics in a directory constructed by the tool on the user’s local 
 machine.  The tool is designed to be versatile enough that any user can run it and store the QA reports on their machine with 
 each new iteration of the SMOKE-MOVES input database.
