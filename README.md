@@ -1,6 +1,6 @@
 # SMOKE-MOVES-Input-QA-Tool
 This repository contains the SMOKE-MOVES Input QA Tool I built for the Lake Michigan Air Directors Consortium over 9 months 
-as a remote access transportation and air quality analyst intern.
+as a remote access transportation and air quality analyst intern.  The project was my first experience with coding and solidified my interest in infrastructure planning.
 
 Air quality modeling is a multi-step process that requires emissions to be modeled from pollutant sources and then processed 
 to produce compatible inputs for air quality models (AQM). The EPA uses the Motor Vehicle Emission Simulator (MOVES) to 
