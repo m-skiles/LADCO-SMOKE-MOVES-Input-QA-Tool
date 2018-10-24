@@ -11,7 +11,7 @@ portion of the National Emissions Inventory (NEI).  The NEI is then processed wi
 chemical speciation and control factors on emissions.  This process is commonly referred to as the SMOKE-MOVES methodology
 and is relied upon to produce compatible emissions input data for many U.S. EPA AQMs including CMAQ, CAMx, REMSAD, and AERMOD.
 
-Inputs for the MOVES model are comprised of 2GB of mySQL databases containing county-level information on the following:
+Inputs for the MOVES model are comprised of 2GB of MySQL databases containing county-level information on the following:
 
 •	Vehicle Miles Traveled (VMT) mix by vehicle type
 
