@@ -1,4 +1,5 @@
 #mandatory packages to be installed: RMySQL, ggmap, ggplot2, gridExtra, plyr, codetools
+#due to periodic updates of open source packages, exact package versions need to be installed from historical archives
 rm(list=ls())
 detachAllPackages <- function() {
   basic.packages <- c("package:stats","package:graphics","package:grDevices","package:utils","package:datasets","package:methods","package:base")
