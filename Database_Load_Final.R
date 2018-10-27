@@ -46,7 +46,7 @@ print("Step 1.10 Starting MYSQL Import")
 column=sub("y2011_20150301","",filelist)
 columnf=sub("c","",column)
 for (count in 1:284)
-{#produce a query for each county database in mysql, disconnect afterwards as there is a max of 16 connections
+{#produce a query for each of the 284 county databases in mysql, disconnect afterwards as there is a max of 16 connections
   
   
   #use MySQL package to connect to MySQL database. 
